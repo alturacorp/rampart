@@ -6345,7 +6345,6 @@ function buildLinkGraph(){
   }
 }); // TARGETS.filter(...).forEach
     }
-    }
     if(showT&&showD&&typeof DETAINEES!=='undefined'){
       DETAINEES.filter(d=>d.linkedTarget===t.id).forEach(d=>{
         if(linkNodes.find(n=>n.id==='t:'+t.id)&&linkNodes.find(n=>n.id==='d:'+d.id))
